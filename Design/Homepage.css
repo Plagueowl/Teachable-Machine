@@ -1,0 +1,87 @@
+.container-fluid{
+    background-color: rgb(115, 173, 207);
+    width: 99%;
+}
+body{
+    background-color: rgb(25,26,26);
+}
+.offcanvas-body{
+    background-color: rgb(175, 182, 145);
+}
+.offcanvas-header{
+    background-color: rgb(147, 177, 136);
+}
+
+.nav-item:hover{background-color: rgb(100, 107, 74) ;}
+#pageHeader{
+    color: white;
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#fileButton{
+    position: relative;
+    top: 10%;
+    left: 41.5%;
+}
+.navbar {
+    position: relative;
+    margin: 10px;
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+}
+.navbarHeading {
+    color: #ae41e0;
+    font-family: "Sofia", sans-serif;
+    background-color: #c5f71e;
+    text-decoration: unset;
+    border-radius: 8px;
+    font-size: 50px;
+}
+.ProjectButton{
+    width: 26%;
+    float: left;
+    height: fit-content;
+    border: 1px solid green;
+    border-radius: 10%;
+    position: relative;
+    top: 100px;
+    left: 20%;
+    padding: 15px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.ProjectButton:hover{border:3px solid rgb(94, 141, 94)}
+
+.buttons::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#image{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 5%;
+}
+#imgText{
+    color: white;
+}
+.numProjectButton{
+    width: 30%;
+    height: fit-content;
+    padding: 1%;
+    border: 5px solid green;
+    border-radius: 10%;
+    position: relative;
+    top : 0px;
+    float: right;
+}
+#image2{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 5%;
+}

@@ -1,0 +1,53 @@
+<nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Teachable Machine</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Teachable Machine</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Homepage.css">New Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Open Project from File</a>  <!-- asks which project, open file -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About us</a>      <!-- about page -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Give Feedback</a>   <!-- random-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">FAQ</a>     <!-- FAQ.html-->
+                </li>
+            </div>
+            </div>
+        </div>
+        </nav>
+
+
+
+in css
+
+.container-fluid{
+    background-color: rgb(115, 173, 207);
+    padding: 1%;
+    width: 99%;
+}
+.offcanvas-body{
+    background-color: rgb(175, 182, 145);
+}
+.offcanvas-header{
+    background-color: rgb(147, 177, 136);
+}
+#navbarDropdown{
+    position: relative;;
+    
+}
+.nav-item:hover{background-color: rgb(100, 107, 74) ;}
